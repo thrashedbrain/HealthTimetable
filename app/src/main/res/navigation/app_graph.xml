@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_graph"
+    app:startDestination="@id/listFragment">
+
+    <fragment
+        android:id="@+id/listFragment"
+        android:name="com.test.health.ui.list.ListFragment"
+        android:label="fragment_list"
+        tools:layout="@layout/fragment_list" >
+        <action
+            android:id="@+id/action_listFragment_to_receptionDetailsFragment"
+            app:destination="@id/receptionDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/medicineFragment"
+        android:name="com.test.health.ui.medicine.MedicineFragment"
+        android:label="fragment_medicine"
+        tools:layout="@layout/fragment_medicine" >
+        <action
+            android:id="@+id/action_medicineFragment_to_medicineDetailsFragment"
+            app:destination="@id/medicineDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/medicineDetailsFragment"
+        android:name="com.test.health.ui.medicineDetails.MedicineDetailsFragment"
+        android:label="fragment_medicine_details"
+        tools:layout="@layout/fragment_medicine_details" >
+        <argument
+            android:name="medicine_id"
+            app:argType="long" />
+    </fragment>
+    <fragment
+        android:id="@+id/receptionDetailsFragment"
+        android:name="com.test.health.ui.receptionDetails.ReceptionDetailsFragment"
+        android:label="fragment_reception_details"
+        tools:layout="@layout/fragment_reception_details" >
+        <argument
+            android:name="reception_id"
+            app:argType="long" />
+        <action
+            android:id="@+id/action_receptionDetailsFragment_to_medicineDetailsFragment"
+            app:destination="@id/medicineDetailsFragment" />
+    </fragment>
+</navigation>

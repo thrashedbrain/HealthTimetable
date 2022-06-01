@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="reception_name">Название</string>
+    <string name="reception_dosage">Дозировка</string>
+    <string name="reception_type">Тип</string>
+    <string name="reception_add_name_hint">Название лекарства</string>
+    <string name="reception_add_date_hint">Дата и время</string>
+    <string name="reception_add_quantity_hint">Принять</string>
+    <string name="reception_done">Выполнено</string>
+    <string name="save">Сохранить</string>
+    <string name="medicine_description">Описание</string>
+    <string name="medicine_dosage">Дозировка</string>
+    <string name="medicine_type">Тип</string>
+    <string name="medicine_add_name_hint">Название лекарства</string>
+    <string name="medicine_add_description_hint">Описание</string>
+    <string name="medicine_add_dosage_hint">Дозировка</string>
+    <string name="medicine_add_type_hint">Тип</string>
+    <string name="medicine_empty_text">Пока что в списке нет данных о лекарствах. Чтобы добавить их, нажмите \"+\"</string>
+    <string name="reception_empty_text">Пока что в списке нет данных о приеме лекарств. Чтобы добавить их, нажмите \"+\"</string>
+    <string name="reception_search">Поиск</string>
+    <string name="clear_filter">Сбросить фильтр</string>
+    <string name="delete">Удалить</string>
+    <string name="change">Изменить</string>
+    <string name="done">Выполнить</string>
+    <string name="medicine_choose_err">Выберите лекарство</string>
+    <string name="edit_name_err">Введите название</string>
+    <string name="edit_dose_err">Введите дозировку</string>
+    <string name="edit_type_err">Выберите тип</string>
+    <string name="menu_shedule">Приём</string>
+    <string name="menu_medicine">Лекарства</string>
+    <string name="type_name1">Таблетки</string>
+    <string name="type_pcs1">Шт.</string>
+    <string name="type_name2">Сироп</string>
+    <string name="type_pcs2">Миллилитров</string>
+    <string name="type_name3">Мазь</string>
+    <string name="type_pcs3">Миллиграмм</string>
+    <string name="type_name4">Капли</string>
+    <string name="type_pcs4">Кол-во капель</string>
+    <string name="type_name5">Инъекции</string>
+    <string name="type_pcs5">Миллилитров</string>
+    <string name="type_name6">Порошок</string>
+    <string name="type_pcs6">Грамм</string>
+</resources>

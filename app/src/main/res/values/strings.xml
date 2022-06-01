@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name" translatable="false">HealthTimetable</string>
+    <string name="reception_name">Name</string>
+    <string name="reception_dosage">Dosage</string>
+    <string name="reception_type">Type</string>
+    <string name="reception_add_name_hint">Medicine name</string>
+    <string name="reception_add_date_hint">Date and time</string>
+    <string name="reception_add_quantity_hint">Take</string>
+    <string name="reception_done">Done</string>
+    <string name="save">Save</string>
+    <string name="medicine_description">Description</string>
+    <string name="medicine_dosage">Dosage</string>
+    <string name="medicine_type">Type</string>
+    <string name="medicine_add_name_hint">Medicine name</string>
+    <string name="medicine_add_description_hint">Description</string>
+    <string name="medicine_add_dosage_hint">Dosage</string>
+    <string name="medicine_add_type_hint">Type</string>
+    <string name="medicine_empty_text">So far, there are no drug data on the list. To add them, click \"+\"</string>
+    <string name="reception_empty_text">So far, the list does not include data on medication intake. To add them, click \"+\"</string>
+    <string name="reception_search">Search</string>
+    <string name="clear_filter">Reset filter</string>
+    <string name="delete">Delete</string>
+    <string name="change">Change</string>
+    <string name="done">Take medicine</string>
+    <string name="medicine_choose_err">Choose a medicine</string>
+    <string name="edit_name_err">Enter the title</string>
+    <string name="edit_dose_err">Enter dosage</string>
+    <string name="edit_type_err">Select type</string>
+    <string name="menu_shedule">Schedule</string>
+    <string name="menu_medicine">Medications</string>
+    <string name="type_name1">Pills</string>
+    <string name="type_pcs1">Pcs.</string>
+    <string name="type_name2">Syrup</string>
+    <string name="type_pcs2">Milliliters</string>
+    <string name="type_name3">Ointment</string>
+    <string name="type_pcs3">Milligram</string>
+    <string name="type_name4">Drops</string>
+    <string name="type_pcs4">Number of drops</string>
+    <string name="type_name5">Injections</string>
+    <string name="type_pcs5">Milliliters</string>
+    <string name="type_name6">Powder</string>
+    <string name="type_pcs6">Gram</string>
+
+</resources>
